@@ -1,0 +1,100 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.4):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.4)
+  - DKImagePickerController/PhotoGallery (4.3.4):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.4)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_pdfview (1.0.2):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - pdf_text (0.0.1):
+    - Flutter
+  - read_pdf_text (0.0.1):
+    - Flutter
+  - SDWebImage (5.18.7):
+    - SDWebImage/Core (= 5.18.7)
+  - SDWebImage/Core (5.18.7)
+  - SwiftyGif (5.4.4)
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_pdfview (from `.symlinks/plugins/flutter_pdfview/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - pdf_text (from `.symlinks/plugins/pdf_text/ios`)
+  - read_pdf_text (from `.symlinks/plugins/read_pdf_text/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DKImagePickerController
+    - DKPhotoGallery
+    - SDWebImage
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_pdfview:
+    :path: ".symlinks/plugins/flutter_pdfview/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  pdf_text:
+    :path: ".symlinks/plugins/pdf_text/ios"
+  read_pdf_text:
+    :path: ".symlinks/plugins/read_pdf_text/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  DKImagePickerController: b512c28220a2b8ac7419f21c491fc8534b7601ac
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  file_picker: 15fd9539e4eb735dc54bae8c0534a7a9511a03de
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_pdfview: 25f53dd6097661e6395b17de506e6060585946bd
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  pdf_text: 850e21d1a62672674099a07818c95a3f55030c81
+  read_pdf_text: e29ee5e80e1dad2f855cdbfc0cbb2097a1cae569
+  SDWebImage: f9258c58221ed854cfa0e2b80ee4033710b1c6d3
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+
+PODFILE CHECKSUM: b1dba20e13aed28c516b42a11125946a84ae8ab3
+
+COCOAPODS: 1.13.0
